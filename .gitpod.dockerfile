@@ -62,6 +62,6 @@ RUN go get github.com/mailhog/MailHog && \
     wget -q https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar -O $HOME/wp-cli.phar && \
     chmod +x $HOME/wp-cli.phar && \
     mv $HOME/wp-cli.phar /usr/local/bin/wp && \
-    chown gitpod:gitpod /usr/local/bin/wp
+    #chown gitpod:gitpod /usr/local/bin/wp
 
 USER gitpod
